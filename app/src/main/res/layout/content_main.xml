@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<LinearLayout
     android:id="@+id/content_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -32,12 +37,7 @@
             android:id="@+id/p1_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/p1_check"
-            android:layout_width="wrap_content"
-            android:onClick="check"
-            android:layout_height="wrap_content"
-            android:text="check"/>
+
         <TextView
             android:id="@+id/p1_total"
             android:layout_width="match_parent"
@@ -62,12 +62,7 @@
             android:id="@+id/p2_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/p2_check"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="check"
-            android:text="check"/>
+
         <TextView
             android:id="@+id/p2_total"
 
@@ -92,12 +87,7 @@
             android:id="@+id/p3_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/p3_check"
-            android:onClick="check"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="check"/>
+
         <TextView
             android:id="@+id/p3_total"
             android:layout_width="match_parent"
@@ -121,12 +111,7 @@
             android:id="@+id/p4_in"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/p4_check"
-            android:onClick="check"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="check"/>
+
         <TextView
             android:id="@+id/p4_total"
             android:layout_width="match_parent"
@@ -136,3 +121,4 @@
 
 
 </LinearLayout>
+</ScrollView>
